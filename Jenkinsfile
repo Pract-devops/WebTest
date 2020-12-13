@@ -5,7 +5,7 @@ pipeline{
         stage('SCM'){
             steps{
             //git clone/pull
-                 git credentialsId: 'OneDevSlave', url: 'https://github.com/Pract-devops/WebTest', branch:'dev'
+                 git credentialsId: 'OneDevSlave', url: 'https://github.com/Pract-devops/WebTest', branch: 'dev'
                 //Credentials("OneDevSlave","dev")
             }
            
